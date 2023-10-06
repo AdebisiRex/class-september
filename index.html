@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="RexsWebsite"/>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        .parent{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            min-height:100vh ;
+            gap: 2rem;
+        }
+        .text{
+            display: grid;
+            place-items: center ;
+        }
+        .image>img{
+            object-fit: cover;
+            object-position: center;
+            width: 100%;
+            height: 100%;
+        }
+        
+    </style>
+    <ul>
+        <li>git init</li>
+        <li>git add <code>file-name</code></li>
+        <li>git add .</li>
+        <li>git checkout <code>branch_name or commit_id</code> </li>
+        <li>git branch <code>new_branch_name</code></li>
+        <li>git status </li>
+        <li>git log</li>
+        <li>git merge </li>
+    </ul>
+    <div class="parent bg-dark ps-4">
+        <div class="child text">
+            <div>
+                <h1 class="text-white fw-bold display-3">Welcome to Our Simple Website</h1>
+                <p class="text-light fs-4">The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava eba ewa and everything.</p>
+
+                <button class="btn btn-outline-light btn-lg px-4 fs-3"> Get Started</button>
+
+            </div>
+            
+        </div>
+        <div class="child image ">
+            <img src="./assets/pexels-lil-artsy-1721232.jpg" alt="">
+        </div>
+    </div>
+    <div class="bg-warning vh-100 d-flex align-items-center justify-content-center">
+        <div class="text-center col-7">
+            <h1 class="display-1 fw-bold">
+                Wake up to reality
+            </h1>
+            <p class="fs-3">
+                Everything is connected by various feature, The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava eba ewa and everything.
+            </p>
+        </div>
+    </div>
+    <div class="vh-100 bg-success p-5 bg-gradient">
+        <div class=" border shadow-sm p-3 rounded-4 col-7 mx-auto">
+            <input type="text" class="form-control mb-3" placeholder="Firstname">
+            <input type="text" class="form-control mb-3" placeholder="Firstname">
+            <input type="text" class="form-control mb-3" placeholder="Firstname">
+            <input type="text" class="form-control mb-3" placeholder="Firstname">
+            <input type="text" class="form-control mb-3" placeholder="Firstname">
+            <input value="Submit" type="button" class="form-control btn btn-danger mb-3" placeholder="Firstname">
+            
+        </div>
+    </div>
+    <div class="p-3 bg-danger text-white">
+        <p>I am the worlds strongest general</p>
+    </div>
+    <footer class="p-3 text-center bg-dark text-white fw-bold">
+        &copy; Rex Design Shege
+    </footer>
+</body>
+</html>
